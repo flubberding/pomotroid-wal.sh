@@ -19,5 +19,5 @@ if [ -f "$HOME/.cache/wal/colors.sh" ]; then
                         "--color-accent": "'${color3:-#eeeeee}'"
                         }
                 }' >~/.config/pomotroid/themes/wal.json
-    echo -e "${GREEN}New pomotroid theme generated...${NC}"
+    echo "New pomotroid theme generated..."
 fi
